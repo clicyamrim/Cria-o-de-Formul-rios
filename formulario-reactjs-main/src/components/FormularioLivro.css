@@ -1,0 +1,56 @@
+.formulario-livro {
+  width: 100%;
+  max-width: 420px;
+  margin: 2rem auto;
+  padding: 32px 20px;
+  text-align: left;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.formulario-livro form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.formulario-livro form button {
+  font: inherit;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 6px;
+  border: 2px solid #2563eb;
+  cursor: pointer;
+  color: #2563eb;
+  background: #eff6ff;
+  transition: all 0.3s ease;
+}
+
+.formulario-livro form button:hover {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.formulario-livro-lista {
+  margin-top: 24px;
+}
+
+.formulario-livro-lista ul {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.livro-item {
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+}
+
+.livro-item p {
+  margin: 0;
+  color: #1e293b;
+}
